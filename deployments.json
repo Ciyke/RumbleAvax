@@ -1,0 +1,49 @@
+{
+  "fuji": {
+    "network": "fuji",
+    "chainId": 43113,
+    "deployedAt": "2026-08-05T18:05:19.741Z",
+    "deployer": "0xf89bEB6D0421D5de23444d1D5Aee776dD4D60D22",
+    "seasonStart": 1785953099,
+    "seasonEnd": 1791482699,
+    "contracts": {
+      "IngredientNFT": "0xFd17F74A10C251CFB597Cae73e67eEB22d69874F",
+      "PotionNFT": "0xb66893CAF98aC63581849dc6e92eDaBd712b9450",
+      "GameEngineV2": "0x445189C01d90bDcaDb77b71c72F2F0EB57fa2BC5",
+      "PredictionMarket": "0xfF12c73A0A219AA35f6D64D65adC298A5b0aa8A7",
+      "TestMarket": "0x7048E7632BbeA9bba6e502289C1c96d74060b758"
+    },
+    "predictions": {
+      "resolver": "0x311944a225f03B16aCb318Ce2111Cca7e3363d09",
+      "treasury": "0x96fb2712F0d69C13263D63438a60A9128eDeeb1E",
+      "rakeBps": 500
+    },
+    "envVars": {
+      "VITE_CHAIN_ID": 43113,
+      "VITE_INGREDIENT_NFT_ADDRESS": "0xFd17F74A10C251CFB597Cae73e67eEB22d69874F",
+      "VITE_POTION_NFT_ADDRESS": "0xb66893CAF98aC63581849dc6e92eDaBd712b9450",
+      "VITE_GAME_ENGINE_ADDRESS": "0x445189C01d90bDcaDb77b71c72F2F0EB57fa2BC5",
+      "VITE_PREDICTION_MARKET_ADDRESS": "0xfF12c73A0A219AA35f6D64D65adC298A5b0aa8A7",
+      "VITE_TEST_MARKET_ADDRESS": "0x7048E7632BbeA9bba6e502289C1c96d74060b758"
+    },
+    "metadataUpdatedAt": "2026-08-05T21:40:22.824Z"
+  },
+  "avalanche": {
+    "network": "avalanche",
+    "chainId": 43114,
+    "deployedAt": "2026-08-07T21:22:15.268Z",
+    "deployer": "0xf89bEB6D0421D5de23444d1D5Aee776dD4D60D22",
+    "contracts": {
+      "PredictionMarket": "0x3634b9D9BF785C24aAc53A41A33Ac69C5E766eB6"
+    },
+    "predictions": {
+      "resolver": "0x311944a225f03B16aCb318Ce2111Cca7e3363d09",
+      "treasury": "0x96fb2712F0d69C13263D63438a60A9128eDeeb1E",
+      "rakeBps": 500
+    },
+    "envVars": {
+      "VITE_CHAIN_ID": 43114,
+      "VITE_PREDICTION_MARKET_ADDRESS": "0x3634b9D9BF785C24aAc53A41A33Ac69C5E766eB6"
+    }
+  }
+}

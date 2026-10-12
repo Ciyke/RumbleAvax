@@ -1,0 +1,28 @@
+{
+  "name": "rumble-avax-contracts",
+  "version": "1.0.0",
+  "description": "Rumble Ingredient Hunt and Predictions Market contracts for Avalanche C-Chain",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "size": "hardhat compile && hardhat run scripts/contract-sizes.ts",
+    "deploy:dry": "hardhat run scripts/deploy.ts --network hardhat",
+    "deploy:fuji": "hardhat run scripts/deploy.ts --network fuji",
+    "deploy:avalanche": "hardhat run scripts/deploy.ts --network avalanche",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.9.6",
+    "@pinata/sdk": "^2.1.0"
+  }
+}

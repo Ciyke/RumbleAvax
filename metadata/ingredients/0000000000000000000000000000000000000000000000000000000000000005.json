@@ -1,0 +1,13 @@
+{
+  "name": "Stone",
+  "description": "A stone ingredient found during the Rumble Ingredient Hunt on Avalanche. Combine with 3 other ingredients to craft a Rumble Potion.",
+  "image": "ipfs://QmXsVbuSJBRFGGJajV7cmSYgZGSrnt8s8RdXJJnTpmWS8u/stone.jpg",
+  "attributes": [
+    { "trait_type": "Type",       "value": "Ingredient" },
+    { "trait_type": "Season",     "value": "Season 1"   },
+    { "trait_type": "Useful",     "value": "No"  },
+    { "trait_type": "Element",    "value": "Stone"    },
+    { "trait_type": "Chain",      "value": "Avalanche C-Chain" },
+    { "display_type": "number", "trait_type": "Token ID", "value": 5 }
+  ]
+}

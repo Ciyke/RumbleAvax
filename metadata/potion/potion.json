@@ -1,0 +1,10 @@
+{
+  "name": "Rumble Potion",
+  "description": "A crafted Rumble Potion, brewed from four ingredients found during the Rumble Ingredient Hunt on Avalanche. Grants free game sessions.",
+  "image": "ipfs://QmXsVbuSJBRFGGJajV7cmSYgZGSrnt8s8RdXJJnTpmWS8u/potion.jpg",
+  "attributes": [
+    { "trait_type": "Type",  "value": "Potion" },
+    { "trait_type": "Season", "value": "Season 1" },
+    { "trait_type": "Chain", "value": "Avalanche C-Chain" }
+  ]
+}
